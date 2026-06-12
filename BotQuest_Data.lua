@@ -93,7 +93,7 @@ BotQuestData.QUESTS = {
         duration   = BotQuestData.DURATIONS.SHORT,
         goldMin    = 60,
         goldMax    = 220,
-        icon       = "Interface\\Icons\\INV_Env_Transportation_Crate_02",
+        icon       = "Interface\\Icons\\inv_misc_enggizmos_17",
     },
     {
         id         = "q_plaga_jabalies",
@@ -143,7 +143,7 @@ BotQuestData.QUESTS = {
         duration   = BotQuestData.DURATIONS.MEDIUM,
         goldMin    = 150,
         goldMax    = 400,
-        icon       = "Interface\\Icons\\Trade_Mining",
+        icon       = "Interface\\Icons\\spell_shadow_summonimp",
     },
     {
         id         = "q_desafio_recluta",
@@ -183,7 +183,7 @@ BotQuestData.QUESTS = {
         duration   = BotQuestData.DURATIONS.MEDIUM,
         goldMin    = 500,
         goldMax    = 1200,
-        icon       = "Interface\\Icons\\Spell_Shadow_UndeadStrength",
+        icon       = "Interface\\Icons\\spell_shadow_auraofdarkness",
     },
     {
         id         = "q_garganta_grito_guerra_baja",
@@ -361,7 +361,7 @@ BotQuestData.QUESTS = {
         duration   = BotQuestData.DURATIONS.EPIC,
         goldMin    = 3000,
         goldMax    = 6000,
-        icon       = "Interface\\Icons\\Spell_Holy_Blink",
+        icon       = "Interface\\Icons\\achievement_boss_saurfang",
         isPvP      = true,
         honorPoints= 400,
     },
@@ -377,7 +377,7 @@ BotQuestData.QUESTS = {
         duration   = BotQuestData.DURATIONS.LONG,
         goldMin    = 4000,
         goldMax    = 8000,
-        icon       = "Interface\\Icons\\Achievement_GuildPerk_EverybodysFriend",
+        icon       = "Interface\\Icons\\inv_shield_13",
     },
     {
         id         = "q_fortaleza_gnoll",
@@ -479,7 +479,7 @@ BotQuestData.QUESTS = {
         duration   = BotQuestData.DURATIONS.LONG,
         goldMin    = 10000,
         goldMax    = 20000,
-        icon       = "Interface\\Icons\\Spell_Fire_MoltenBolt",
+        icon       = "Interface\\Icons\\inv_misc_ammo_gunpowder_04",
     },
     {
         id         = "q_retomar_puesto",
@@ -671,7 +671,7 @@ BotQuestData.QUESTS = {
         duration   = BotQuestData.DURATIONS.MEDIUM,
         goldMin    = 36000,
         goldMax    = 75000,
-        icon       = "Interface\\Icons\\Spell_Frost_GlacialBurst",
+        icon       = "Interface\\Icons\\achievement_dungeon_ulduarraid_ironsentinel_01",
     },
 
     -- ─── NIVEL 61-70 (Outland) ────────────────────────────────
@@ -685,7 +685,7 @@ BotQuestData.QUESTS = {
         duration   = BotQuestData.DURATIONS.LONG,
         goldMin    = 60000,
         goldMax    = 120000,
-        icon       = "Interface\\Icons\\Spell_Fire_FelFlame",
+        icon       = "Interface\\Icons\\ability_warlock_haunt",
     },
     {
         id         = "q_torre_mago_negro",
@@ -709,7 +709,7 @@ BotQuestData.QUESTS = {
         duration   = BotQuestData.DURATIONS.LONG,
         goldMin    = 70000,
         goldMax    = 140000,
-        icon       = "Interface\\Icons\\Achievement_BG_WinEOTS",
+        icon       = "Interface\\Icons\\inv_misc_tournaments_banner_bloodelf",
         isPvP      = true,
         honorPoints= 2000,
     },
@@ -737,7 +737,7 @@ BotQuestData.QUESTS = {
         duration   = BotQuestData.DURATIONS.SHORT,
         goldMin    = 55000,
         goldMax    = 110000,
-        icon       = "Interface\\Icons\\Spell_Nature_AuraOfPoison",
+        icon       = "Interface\\Icons\\achievement_dungeon_hordeairship",
     },
     {
         id         = "q_consocio_nagrand",
@@ -763,7 +763,7 @@ BotQuestData.QUESTS = {
         duration   = BotQuestData.DURATIONS.MEDIUM,
         goldMin    = 80000,
         goldMax    = 160000,
-        icon       = "Interface\\Icons\\Ability_Hunter_Pet_Eagle",
+        icon       = "Interface\\Icons\\ability_hunter_pet_dragonhawk",
     },
     {
         id         = "q_sol_devastado",
@@ -825,7 +825,7 @@ BotQuestData.QUESTS = {
         duration   = BotQuestData.DURATIONS.EPIC,
         goldMin    = 400000,
         goldMax    = 850000,
-        icon       = "Interface\\Icons\\INV_Misc_Platypus",
+        icon       = "Interface\\Icons\\achievement_pvp_o_12",
         isPvP      = true,
         honorPoints= 4000,
     },
@@ -877,7 +877,7 @@ BotQuestData.QUESTS = {
         duration   = BotQuestData.DURATIONS.LONG,
         goldMin    = 300000,
         goldMax    = 600000,
-        icon       = "Interface\\Icons\\Spell_Frost_SummonWaterElemental_Pet",
+        icon       = "Interface\\Icons\\achievement_zone_icecrown_03",
     },
     {
         id         = "q_torneo_argenteo",
@@ -909,7 +909,7 @@ BotQuestData.QUESTS = {
         duration   = BotQuestData.DURATIONS.SHORT,
         goldMin    = 50,
         goldMax    = 210,
-        icon       = "Interface\\Icons\\Ability_Mount_Tiger",
+        icon       = "Interface\\Icons\\ability_hunter_pet_cat",
     },
     {
         id         = "q_infestacion_viejas",
@@ -957,7 +957,7 @@ BotQuestData.QUESTS = {
         duration   = BotQuestData.DURATIONS.MEDIUM,
         goldMin    = 115,
         goldMax    = 320,
-        icon       = "Interface\\Icons\\INV_Misc_Armorscrab_02",
+        icon       = "Interface\\Icons\\inv_misc_bandana_01",
     },
     {
         id         = "q_emboscada_camino",
@@ -1019,7 +1019,7 @@ BotQuestData.QUESTS = {
         duration   = BotQuestData.DURATIONS.EPIC,
         goldMin    = 250,
         goldMax    = 600,
-        icon       = "Interface\\Icons\\INV_Misc_MurlocHead",
+        icon       = "Interface\\Icons\\inv_box_petcarrier_01",
     },
 
     -- ─── NIVEL 11-20 (10 Misiones) ──────────────────────────
@@ -1069,7 +1069,7 @@ BotQuestData.QUESTS = {
         duration   = BotQuestData.DURATIONS.MEDIUM,
         goldMin    = 520,
         goldMax    = 1150,
-        icon       = "Interface\\Icons\\Spell_Nature_InfectiousPrickle",
+        icon       = "Interface\\Icons\\ability_hunter_pet_crab",
     },
     {
         id         = "q_arpías_charca",
@@ -1329,7 +1329,7 @@ BotQuestData.QUESTS = {
         duration   = BotQuestData.DURATIONS.MEDIUM,
         goldMin    = 4800,
         goldMax    = 9600,
-        icon       = "Interface\\Icons\\INV_Misc_Head_Ogre_01",
+        icon       = "Interface\\Icons\\ability_druid_lacerate",
     },
     {
         id         = "q_campamento_kurzen",
@@ -1353,7 +1353,7 @@ BotQuestData.QUESTS = {
         duration   = BotQuestData.DURATIONS.LONG,
         goldMin    = 5600,
         goldMax    = 11500,
-        icon       = "Interface\\Icons\\INV_PickAxe_01",
+        icon       = "Interface\\Icons\\Inv_misc_ear_human_02",
         isPvP      = true,
         honorPoints= 450,
     },
@@ -1429,7 +1429,7 @@ BotQuestData.QUESTS = {
         duration   = BotQuestData.DURATIONS.MEDIUM,
         goldMin    = 11000,
         goldMax    = 22000,
-        icon       = "Interface\\Icons\\INV_Key_03",
+        icon       = "Interface\\Icons\\ability_dualwieldspecialization",
         isPvP      = true,
         honorPoints= 700,
     },
@@ -1455,7 +1455,7 @@ BotQuestData.QUESTS = {
         duration   = BotQuestData.DURATIONS.MEDIUM,
         goldMin    = 12000,
         goldMax    = 24000,
-        icon       = "Interface\\Icons\\Ability_Druid_MoonkinForm",
+        icon       = "Interface\\Icons\\inv_misc_herb_ancientlichen",
     },
     {
         id         = "q_trols_jintha_alor",
@@ -1677,7 +1677,7 @@ BotQuestData.QUESTS = {
         duration   = BotQuestData.DURATIONS.MEDIUM,
         goldMin    = 68000,
         goldMax    = 138000,
-        icon       = "Interface\\Icons\\Ability_Hunter_Pet_Eagle",
+        icon       = "Interface\\Icons\\ability_hunter_pet_dragonhawk",
     },
     {
         id         = "q_etereos_nagrand",
@@ -1715,7 +1715,7 @@ BotQuestData.QUESTS = {
         duration   = BotQuestData.DURATIONS.MEDIUM,
         goldMin    = 76000,
         goldMax    = 155000,
-        icon       = "Interface\\Icons\\INV_Misc_Head_Ogre_02",
+        icon       = "Interface\\Icons\\achievement_dungeon_ulduarraid_misc_06",
     },
     {
         id         = "q_gloria_gromgol",
@@ -1727,7 +1727,7 @@ BotQuestData.QUESTS = {
         duration   = BotQuestData.DURATIONS.LONG,
         goldMin    = 92000,
         goldMax    = 185000,
-        icon       = "Interface\\Icons\\Spell_Fire_LavaSpike",
+        icon       = "Interface\\Icons\\spell_fire_fire",
     },
     {
         id         = "q_cristales_netherstorm",
@@ -1739,7 +1739,7 @@ BotQuestData.QUESTS = {
         duration   = BotQuestData.DURATIONS.LONG,
         goldMin    = 96000,
         goldMax    = 195000,
-        icon       = "Interface\\Icons\\INV_Misc_GlowPotion_01",
+        icon       = "Interface\\Icons\\spell_shadow_siphonmana",
     },
     {
         id         = "q_forjas_shadowmoon",
@@ -1825,7 +1825,7 @@ BotQuestData.QUESTS = {
         duration   = BotQuestData.DURATIONS.LONG,
         goldMin    = 260000,
         goldMax    = 520000,
-        icon       = "Interface\\Icons\\INV_Misc_Platypus",
+        icon       = "Interface\\Icons\\inv_gizmo_thebiggerone",
         isPvP      = true,
         honorPoints= 2800,
     },
@@ -1839,7 +1839,7 @@ BotQuestData.QUESTS = {
         duration   = BotQuestData.DURATIONS.MEDIUM,
         goldMin    = 210000,
         goldMax    = 430000,
-        icon       = "Interface\\Icons\\Spell_Nature_Sustenance",
+        icon       = "Interface\\Icons\\achievement_zone_stranglethorn_01",
     },
     {
         id         = "q_hierro_negro_stormpeaks",
