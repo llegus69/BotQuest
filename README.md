@@ -94,4 +94,5 @@ Para mantener tu repositorio ordenado, distribuye tus archivos de la siguiente m
     └── BotQuest_Elites.lua       # Inyector de misiones Élite de nivel alto para el servidor
 
 
+<img width="3840" height="2160" alt="botquest" src="https://github.com/user-attachments/assets/6413424b-c272-4a1a-af52-a53996b2da3d" />
 
