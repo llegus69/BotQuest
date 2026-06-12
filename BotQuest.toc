@@ -1,0 +1,11 @@
+## Interface: 30300
+## Title: BotQuest
+## Notes: Envia tus NPCBots a misiones, recibe recompensas y misiones con CD
+## Author: Lleguito
+## Version: 1.7 
+## SavedVariables: BotQuestDB
+
+BotQuest_Data.lua
+BotQuest_Core.lua
+BotQuest_UI.lua
+BotQuest_LiveLog.lua
