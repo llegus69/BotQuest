@@ -61,6 +61,10 @@ Puedes interactuar de manera directa utilizando los comandos de barra /bq o /bot
 /bq reset — Comando de emergencia. Restablece el estado de los marcos locales, detiene los temporizadores visuales y limpia los datos corruptos de sesión.
 /bql — Alterna la visualización independiente de la ventana de bitácora narrativa en tiempo real (LiveLog).
 
+
+<img width="3840" height="2160" alt="botquest" src="https://github.com/user-attachments/assets/6413424b-c272-4a1a-af52-a53996b2da3d" />
+
+
 Comandos de Consola (Administrador / GM)
 .bq reload — Vacía las cachés de memoria del servidor Eluna, recompila dinámicamente las listas de plantillas válidas desde item_template y regenera los pools de recompensas sin necesidad de reiniciar el reino.
 
@@ -94,5 +98,5 @@ Para mantener tu repositorio ordenado, distribuye tus archivos de la siguiente m
     └── BotQuest_Elites.lua       # Inyector de misiones Élite de nivel alto para el servidor
 
 
-<img width="3840" height="2160" alt="botquest" src="https://github.com/user-attachments/assets/6413424b-c272-4a1a-af52-a53996b2da3d" />
+
 
