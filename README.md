@@ -81,8 +81,23 @@ local CFG = {
     BASE_SUCCESS = { EASY = 0.55, NORMAL = 0.40, HARD = 0.25, ELITE = 0.10 }
 }
 
-## 📁 Estructura del Proyecto
+🤝 Contribuciones y Soporte
+Las contribuciones son lo que hacen a la comunidad de emulación un lugar increíble. Si deseas agregar nuevos arquetipos de misiones en BotQuest_Data.lua, optimizar los renders de las texturas en BotQuest_UI.lua o ajustar las consultas SQL del backend en BotQuest_Server.lua:
 
+Haz un Fork del proyecto.
+
+Crea tu rama de características (git checkout -b feature/NuevaMision).
+
+Realiza un Commit con tus cambios (git commit -m 'Añadida misión épica Núcleo de Magma').
+
+Haz un Push a la rama (git push origin feature/NuevaMision).
+
+Abre un Pull Request.
+
+📜 Licencia
+Este ecosistema se distribuye bajo la Licencia MIT. Eres completamente libre de usarlo, modificarlo, subastarlo o adaptarlo a las necesidades técnicas y de diseño de tu propio servidor privado.
+
+## 📁 Estructura del Proyecto
 Para mantener tu repositorio ordenado, distribuye tus archivos de la siguiente manera:
 
 ```text
