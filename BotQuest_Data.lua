@@ -262,6 +262,32 @@ BotQuestData.QUESTS = {
         honorPoints= 200,
     },
 
+    -- ─── ÉLITE 15-20 ─────────────────────────────────────────
+    {
+        id         = "q_elite_mina_garras",
+        name       = "[ÉLITE] La Mina Infestada de Garras",
+        desc       = "Una antigua mina al norte ha sido tomada por arañas carroñeras y sus reinas. Los colonos no se atreven a acercarse. Infiltra un equipo y extermina a la matriarca antes de que la infestación se extienda.",
+        minLevel   = 15,
+        maxLevel   = 20,
+        difficulty = "ELITE",
+        duration   = 900,
+        goldMin    = 8000,
+        goldMax    = 18000,
+        icon       = "Interface\\Icons\\Ability_Rogue_Ambush",
+    },
+    {
+        id         = "q_elite_muertos_errantes",
+        name       = "[ÉLITE] Patrulla de los Muertos Errantes",
+        desc       = "Desde el cementerio olvidado al este del poblado emergen no-muertos cada noche atacando las granjas cercanas. Elimina al nigromante que los levanta antes del próximo amanecer.",
+        minLevel   = 15,
+        maxLevel   = 20,
+        difficulty = "ELITE",
+        duration   = 1200,
+        goldMin    = 10000,
+        goldMax    = 22000,
+        icon       = "Interface\\Icons\\Spell_Shadow_RaiseDead",
+    },
+
     -- ─── NIVEL 21-30 ─────────────────────────────────────────
     {
         id         = "q_ruinas_antiguas",
@@ -366,6 +392,32 @@ BotQuestData.QUESTS = {
         honorPoints= 400,
     },
 
+    -- ─── ÉLITE 22-28 ─────────────────────────────────────────
+    {
+        id         = "q_elite_senor_pantano",
+        name       = "[ÉLITE] El Señor del Pantano",
+        desc       = "Una criatura colosal domina los pantanos del sur hundiendo las barcazas de suministros. Los mercaderes ofrecen una recompensa generosa por su cabeza. El terreno dificulta el combate.",
+        minLevel   = 22,
+        maxLevel   = 28,
+        difficulty = "ELITE",
+        duration   = 1200,
+        goldMin    = 18000,
+        goldMax    = 35000,
+        icon       = "Interface\\Icons\\Ability_Hunter_SwiftStrike",
+    },
+    {
+        id         = "q_elite_camara_gnomeregan",
+        name       = "[ÉLITE] Cámara Sellada de Gnomeregan",
+        desc       = "Un sector irradiado de Gnomeregan esconde tecnología prototipo de alto valor. El lépero jefe que guarda la cámara es enormemente resistente. Se requiere coordinación táctica y equipo anti-radiación.",
+        minLevel   = 22,
+        maxLevel   = 28,
+        difficulty = "ELITE",
+        duration   = 1500,
+        goldMin    = 22000,
+        goldMax    = 45000,
+        icon       = "Interface\\Icons\\INV_Gizmo_GoblinAirToGroundRocket",
+    },
+
     -- ─── NIVEL 31-40 ─────────────────────────────────────────
     {
         id         = "q_convoy_royal",
@@ -468,6 +520,32 @@ BotQuestData.QUESTS = {
         icon       = "Interface\\Icons\\INV_Misc_Statue_01",
     },
 
+    -- ─── ÉLITE 31-37 ─────────────────────────────────────────
+    {
+        id         = "q_elite_morshan_contraataque",
+        name       = "[ÉLITE] Fortaleza Mor'shan: Contraataque",
+        desc       = "Un clan de trolls de Zul'Farrak ha enviado una vanguardia para asaltar la Fortaleza Mor'shan. Los refuerzos tardarán demasiado. Tu escuadrón debe contener la oleada y eliminar al jefe de guerra troll.",
+        minLevel   = 31,
+        maxLevel   = 37,
+        difficulty = "ELITE",
+        duration   = 1800,
+        goldMin    = 35000,
+        goldMax    = 65000,
+        icon       = "Interface\\Icons\\Ability_Warrior_Sunder",
+    },
+    {
+        id         = "q_elite_sombra_serenos_solares",
+        name       = "[ÉLITE] La Sombra de los Serenos Solares",
+        desc       = "Espías de los Serenos Solares han robado artefactos de luz sagrada de un templo de la Alianza. Infiltra su campamento en Desolace, recupera los artefactos y neutraliza al agente infiltrado antes de que huya.",
+        minLevel   = 31,
+        maxLevel   = 37,
+        difficulty = "ELITE",
+        duration   = 2100,
+        goldMin    = 40000,
+        goldMax    = 75000,
+        icon       = "Interface\\Icons\\Spell_Holy_MindVision",
+    },
+
     -- ─── NIVEL 41-50 ─────────────────────────────────────────
     {
         id         = "q_minas_profundas",
@@ -568,6 +646,58 @@ BotQuestData.QUESTS = {
         goldMin    = 17000,
         goldMax    = 35000,
         icon       = "Interface\\Icons\\INV_Feather_03",
+    },
+
+    -- ─── ÉLITE 40-45 ─────────────────────────────────────────
+    {
+        id         = "q_elite_catacumbas_maraudon",
+        name       = "[ÉLITE] Las Catacumbas de Marrón Carmesí",
+        desc       = "Bajo las ruinas de Maraudon yace una cámara sellada con una entidad corrupta de la naturaleza. El grupo deberá atravesar varias oleadas de guardianes elementales antes de enfrentarla. La corrupción afecta el entorno.",
+        minLevel   = 40,
+        maxLevel   = 45,
+        difficulty = "ELITE",
+        duration   = 2400,
+        goldMin    = 65000,
+        goldMax    = 120000,
+        icon       = "Interface\\Icons\\Spell_Nature_NatureTouchGrow",
+    },
+    {
+        id         = "q_elite_escolta_convoy_real",
+        name       = "[ÉLITE] Escolta del Convoy Real",
+        desc       = "Un convoy con suministros críticos para el frente de guerra debe atravesar las Tierras Inhóspitas, un corredor infestado por gnolls de élite y bandidos mercenarios. Protégelo hasta el destino sin bajas.",
+        minLevel   = 40,
+        maxLevel   = 45,
+        difficulty = "ELITE",
+        duration   = 2700,
+        goldMin    = 70000,
+        goldMax    = 130000,
+        icon       = "Interface\\Icons\\Ability_Defend",
+    },
+
+    -- ─── ÉLITE 45-52 ─────────────────────────────────────────
+    {
+        id         = "q_elite_heraldo_llama_negra",
+        name       = "[ÉLITE] El Heraldo de la Llama Negra",
+        desc       = "Un heraldo de Ragnaros ha sido avistado en las Tierras de Fuego exteriores coordinando ataques contra asentamientos enanos. Intercepta su ritual antes de que convoque refuerzos desde el Núcleo de Magma.",
+        minLevel   = 45,
+        maxLevel   = 52,
+        difficulty = "ELITE",
+        duration   = 2700,
+        goldMin    = 90000,
+        goldMax    = 175000,
+        icon       = "Interface\\Icons\\Spell_Fire_FireBolt02",
+    },
+    {
+        id         = "q_elite_prision_vientos_fuga",
+        name       = "[ÉLITE] Prisión de los Vientos: Fuga",
+        desc       = "Un peligroso arúspice de los Vientos del Norte ha escapado de su celda en Alterac. Su rastro de magia elemental devastadora debe cortarse antes de que alcance a sus cómplices en las montañas.",
+        minLevel   = 45,
+        maxLevel   = 52,
+        difficulty = "ELITE",
+        duration   = 3000,
+        goldMin    = 100000,
+        goldMax    = 190000,
+        icon       = "Interface\\Icons\\Spell_Frost_FrostBolt02",
     },
 
     -- ─── NIVEL 51-60 ─────────────────────────────────────────
@@ -1889,7 +2019,33 @@ BotQuestData.QUESTS = {
         goldMax    = 1100000,
         icon       = "Interface\\Icons\\INV_Misc_MonsterSpiderCarapace_01",
     },
-{
+-- ─── ÉLITE 53-60 ─────────────────────────────────────────
+    {
+        id         = "q_elite_puertas_plaga_avalon",
+        name       = "[ÉLITE] Las Puertas de la Plaga: Avalón Occidental",
+        desc       = "La Plaga avanza sin descanso por el Frente Occidental. Tu escuadrón debe contener una oleada de no-muertos mientras el último sacerdote sella el portal de invocación. Cada segundo cuenta. No hay retirada.",
+        minLevel   = 53,
+        maxLevel   = 60,
+        difficulty = "ELITE",
+        duration   = 3300,
+        goldMin    = 130000,
+        goldMax    = 260000,
+        icon       = "Interface\\Icons\\Spell_Shadow_DeathAndDecay",
+    },
+    {
+        id         = "q_elite_pacto_roto_scholomance",
+        name       = "[ÉLITE] El Pacto Roto de Scholomance",
+        desc       = "Un archimago renegado ha tomado el control de Scholomance rompiendo el pacto con la Kirin Tor. Sus experimentos amenazan con liberar una plaga mágica. Penetra sus defensas, destruye sus notas y elimínalo.",
+        minLevel   = 53,
+        maxLevel   = 60,
+        difficulty = "ELITE",
+        duration   = 3600,
+        goldMin    = 140000,
+        goldMax    = 280000,
+        icon       = "Interface\\Icons\\Spell_Arcane_PortalDalaran",
+    },
+
+    {
         id         = "ELITE_01",
         name       = "[ÉLITE] El Azote de Stratholme",
         desc       = "Envía a tus mejores hombres a limpiar los remanentes de la Plaga. La resistencia es feroz y requerirá una coordinación perfecta.",
